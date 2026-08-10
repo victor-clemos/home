@@ -8,7 +8,7 @@
 		
 		<meta name="copyright" content="MACode ID, https://www.macodeid.com/">
 		
-		<title>Victor Lemos, M.Sc. - ML Engineer</title>
+		<title>Victor Lemos - DS & Engenheiro de IA</title>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
 		
@@ -41,16 +41,6 @@
 		<!-- Back to top button -->
 		<div class="btn-back_to_top">
 			<span class="ti-arrow-up"></span>
-		</div>
-
-		<!-- Setting button -->
-		<div class="config">
-			<div class="template-config">
-				<!-- Settings -->
-				<div class="d-block">
-					<button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
-				</div>
-			</div>
 		</div>
 
 		<div class="topbar-nav fixed-top">
@@ -118,7 +108,7 @@
 				<div class="caption wow zoomInUp">
 					<h1 class="fw-normal">Bem Vindo</h1>
 					<h2 class="fw-medium fg-theme">Eu sou Victor Lemos</h2>
-					<p class="tagline">Engenheiro de ML & Cientista de Dados</p>
+					<p class="tagline">Cientista de Dados & Engenheiro de IA</p>
 					<div class="floating-button wow fadeInUp">
 						<div class="middle">
 							<div class="mouse"></div>
@@ -126,28 +116,35 @@
 					</div>	
 				</div>
 			</div>
-		
-			<!-- Page About -->
+			
+				<!-- Page About -->
 			<div class="vg-page page-about" id="about">
 				<!-- Profile -->
 				<div class="container py-3">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="img-place wow zoomIn">
-								<img src="../assets/img/victor_portrait.png" alt="Photo Profile">
+								<img src="../assets/img/victor_lemos_portrait.jpg" alt="Photo Profile">
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="caption wow fadeInRight">
 								<h2 class="fg-dark">Victor Lemos</h2>
-								<p class="fg-theme fw-medium">Engenheiro de ML & Cientista de Dados</p>
-								<p>Mestre em Ciência da Computação pela UFMA. Interesse em Processamento de Imagens, 
-									Reconhecimento de Fala e PLN. Atualmente atuando como Engenheiro de ML na Consolide.</p>
+								<p class="fg-theme fw-medium">Cientista de Dados & Engenheiro de IA</p>
+								<p>
+									Sou Especialista em Ciência de Dados na Globo e pesquisador de Inteligência Artificial, mestre em Ciência da Computação pela Universidade Federal do Maranhão (UFMA). Meu trabalho é focado no desenvolvimento e na implantação de arquiteturas de machine learning aplicadas aos setores de mídia, saúde e sistemas corporativos.
+									<br><br>
+									Na Globo, desenvolvo frameworks de IA generativa, incluindo sistemas multiagentes para criação de personas publicitárias, e construo modelos de first-party data para predição de estruturas domiciliares utilizando análise estatística de pesquisas. Anteriormente, atuando como consultor de Ciência de Dados Sênior, projetei simuladores de desempenho de campanhas publicitárias em PySpark e LightGBM, além de pipelines automatizadas de engenharia de atributos no Google Cloud Platform (GCP).
+									<br><br>
+									Minha trajetória combina engenharia de dados em produção com pesquisa em Visão Computacional e PNL. Como pesquisador principal no VIPLab, desenvolvi sistemas de geração automática de laudos médicos para imagens de retinografia usando modelos de visão e linguagem (VLMs), além de gerenciar bases de dados médicas em grande escala. Anteriormente, liderei projetos de machine learning voltados para verificação de marcas por similaridade em PNL, classificação de texto com BERT e modelos de pontuação fonética, além de publicar pesquisas em previsão de séries temporais com Redes Convolucionais Temporais (TCN).
+									<br><br>
+									Tanto no mercado quanto em laboratórios acadêmicos, meu foco é transformar conjuntos de dados complexos—de imagens médicas e linguagem natural a telemetria de consumo em larga escala—em modelos de produção mensuráveis e confiáveis.
+								</p>
 								<ul class="theme-list">
-								<li class="fg-dark"><b>De:</b> São Luís, MA - Brasil</li>
-								<li class="fg-dark"><b>Vive em:</b> São Luís, MA - Brasil</li>
-								<li class="fg-dark"><b>Idade:</b> 26</li>
-								<li class="fg-dark"><b>Gênero:</b> Masculino</li>
+									<li class="fg-dark"><b>De:</b> São Luís, MA - Brasil</li>
+									<li class="fg-dark"><b>Vive em:</b> São Luís, MA - Brasil</li>
+									<li class="fg-dark"><b>Age:</b> <span id="age-value"></span></li>
+									<li class="fg-dark"><b>Gênero:</b> Masculino</li>
 								</ul>
 								<a class="btn btn-theme btn-rounded" href="../assets/cv/Victor_Lemos_CV_20220811_pt_BR.pdf" download="Victor_Lemos_CV_20220811_pt_BR.pdf">Baixar CV</a>
 							</div>
@@ -157,11 +154,11 @@
 				<!-- End profile -->
 				<!-- Skills -->
 				<div class="container mt-5">
-					<h1 class="text-center fg-dark wow fadeInUp">Minhas Habilidades</h1>
+					<h1 class="text-center fg-dark wow fadeInUp">My Skills</h1>
 					<div class="row py-3">
 						<div class="col-md-12">
 							<!-- Programing Languages -->
-							<h5 class="wow fadeInUp">Linguagens de Programação</h5>
+							<h5 class="wow fadeInUp">Programing Languages</h5>
 							<div align="left">
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python logo" title="Python"/>
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo" title="Javascript" />
@@ -169,17 +166,21 @@
 							</div>
 							<hr>
 							<!-- Libraries/Frameworks -->
-							<h5 class="wow fadeInUp">Bibliotecas/Frameworks</h5>
+							<h5 class="wow fadeInUp">Libraries/Frameworks</h5>
 							<div align="left">
 								<!-- ML libs -->
+								<img class="img-badges" style="height: 50px; width: 50px;" src="https://adk.dev/assets/agent-development-kit.png" alt="Agent Development Kit logo" title="Agent Development Kit" />
+								<svg class="img-badges" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="Langchain--Streamline-Simple-Icons" height="24" width="24">
+									<title>LangChain</title>
+									<path d="M6.0988 5.9175C2.7359 5.9175 0 8.6462 0 12s2.736 6.0825 6.0988 6.0825h11.8024C21.2641 18.0825 24 15.3538 24 12s-2.736 -6.0825 -6.0988 -6.0825ZM5.9774 7.851c0.493 0.0124 1.02 0.2496 1.273 0.6228 0.3673 0.4592 0.4778 1.0668 0.8944 1.4932 0.5604 0.6118 1.199 1.1505 1.7161 1.802 0.4892 0.5954 0.8386 1.2937 1.1436 1.9975 0.1244 0.2335 0.1257 0.5202 0.31 0.7197 0.0908 0.1204 0.5346 0.4483 0.4383 0.5645 0.0555 0.1204 0.4702 0.286 0.3263 0.4027 -0.1944 0.04 -0.4129 0.0476 -0.5616 -0.1074 -0.0549 0.126 -0.183 0.0596 -0.2819 0.0432a4 4 0 0 0 -0.025 0.0736c-0.3288 0.0219 -0.5754 -0.3126 -0.732 -0.565 -0.3111 -0.168 -0.6642 -0.2702 -0.982 -0.446 -0.0182 0.2895 0.0452 0.6485 -0.231 0.8353 -0.014 0.5565 0.8436 0.0656 0.9222 0.4804 -0.061 0.0067 -0.1286 -0.0095 -0.1774 0.0373 -0.2239 0.2172 -0.4805 -0.1645 -0.7385 -0.007 -0.3464 0.174 -0.3808 0.3161 -0.8096 0.352 -0.0237 -0.0359 -0.0143 -0.0592 0.0059 -0.0811 0.1207 -0.1399 0.1295 -0.3046 0.3356 -0.3643 -0.2122 -0.0334 -0.3899 0.0833 -0.5686 0.1757 -0.2323 0.095 -0.2304 -0.2141 -0.5878 0.0164 -0.0396 -0.0322 -0.0208 -0.0615 0.0018 -0.0864 0.0908 -0.1107 0.2102 -0.127 0.345 -0.1208 -0.663 -0.3686 -0.9751 0.4507 -1.2813 0.0432 -0.092 0.0243 -0.1265 0.1068 -0.1845 0.1652 -0.05 -0.0548 -0.0123 -0.1212 -0.0099 -0.1857 -0.0598 -0.028 -0.1356 -0.041 -0.1179 -0.1366 -0.1171 -0.0395 -0.1988 0.0295 -0.286 0.0952 -0.0787 -0.0608 0.0532 -0.1492 0.0776 -0.2125 0.0702 -0.1216 0.23 -0.025 0.3111 -0.1126 0.2306 -0.1308 0.552 0.0814 0.8155 0.0455 0.203 0.0255 0.4544 -0.1825 0.3526 -0.39 -0.2171 -0.2767 -0.179 -0.6386 -0.1839 -0.9695 -0.0268 -0.1929 -0.491 -0.4382 -0.6252 -0.6462 -0.1659 -0.1873 -0.295 -0.4047 -0.4243 -0.6182 -0.4666 -0.9008 -0.3198 -2.0584 -0.9077 -2.8947 -0.266 0.1466 -0.6125 0.0774 -0.8418 -0.119 -0.1238 0.1125 -0.1292 0.2598 -0.139 0.4161 -0.297 -0.2962 -0.2593 -0.8559 -0.022 -1.1855 0.0969 -0.1302 0.2127 -0.2373 0.342 -0.3316 0.0292 -0.0213 0.0391 -0.0419 0.0385 -0.0747 0.1174 -0.5267 0.5764 -0.7391 1.0694 -0.7267m12.4071 0.46c0.5575 0 1.0806 0.2159 1.474 0.6082s0.61 0.9145 0.61 1.4704c0 0.556 -0.2167 1.078 -0.61 1.4698v0.0006l-0.902 0.8995a2.08 2.08 0 0 1 -0.8597 0.5166l-0.0164 0.0047 -0.0058 0.0164a2.05 2.05 0 0 1 -0.474 0.7308l-0.9018 0.8995c-0.3934 0.3924 -0.917 0.6083 -1.4745 0.6083s-1.0806 -0.216 -1.474 -0.6083c-0.813 -0.8107 -0.813 -2.1294 0 -2.9402l0.9019 -0.8995a2.056 2.056 0 0 1 0.858 -0.5143l0.017 -0.0053 0.0058 -0.0158a2.07 2.07 0 0 1 0.4752 -0.7337l0.9018 -0.8995c0.3934 -0.3924 0.9171 -0.6083 1.4745 -0.6083zm0 0.8965a1.18 1.18 0 0 0 -0.8388 0.3462l-0.9018 0.8995a1.181 1.181 0 0 0 -0.3427 0.9252l0.0053 0.0572c0.0323 0.2652 0.149 0.5044 0.3374 0.6917 0.13 0.1296 0.2733 0.2114 0.4471 0.2686a0.9 0.9 0 0 1 0.014 0.1582 0.884 0.884 0 0 1 -0.2609 0.6304l-0.0554 0.0554c-0.3013 -0.1028 -0.5525 -0.253 -0.7794 -0.4792a2.06 2.06 0 0 1 -0.5761 -1.0968l-0.0099 -0.0578 -0.0461 0.0368a1.1 1.1 0 0 0 -0.0876 0.0794l-0.9024 0.8995c-0.4623 0.461 -0.4623 1.212 0 1.673 0.2311 0.2305 0.535 0.346 0.8394 0.3461 0.3043 0 0.6077 -0.1156 0.8388 -0.3462l0.9019 -0.8995c0.4623 -0.461 0.4623 -1.2113 0 -1.673a1.17 1.17 0 0 0 -0.4367 -0.2749 1 1 0 0 1 -0.014 -0.1611c0 -0.2591 0.1023 -0.505 0.2901 -0.6923 0.3019 0.1028 0.57 0.2694 0.7962 0.495 0.3007 0.2999 0.4994 0.679 0.5756 1.0968l0.0105 0.0578 0.0455 -0.0373a1.1 1.1 0 0 0 0.0887 -0.0794l0.902 -0.8996c0.4622 -0.461 0.4628 -1.2124 0 -1.6735a1.18 1.18 0 0 0 -0.8395 -0.3462Zm-9.973 5.1567 -0.0006 0.0006c-0.0793 0.3078 -0.1048 0.8318 -0.506 0.847 -0.033 0.1776 0.1228 0.2445 0.2655 0.1874 0.141 -0.0645 0.2081 0.0508 0.2557 0.1657 0.2177 0.0317 0.5394 -0.0725 0.5516 -0.3298 -0.325 -0.1867 -0.4253 -0.5418 -0.5662 -0.8709" fill="#000000" stroke-width="1"></path>
+								</svg>
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="tensorflow logo" title="Tensorflow" />
 								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pytorch/pytorch-original.svg" alt="pytorch logo" title="PyTorch" />
 								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/opencv/opencv-original.svg" alt="opencv logo" title="OpenCV" />
 								<img class="img-badges" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn logo" title="Scikit learn" />
-								<img class="img-badges" src="../assets/img/logo/MLflow-Logo.svg" style="margin-left:0.9rem;" alt="scikit-learn logo" title="Scikit learn" />
+								<img class="img-badges" src="./assets/img/logo/MLflow-Logo.svg" style="margin-left:0.9rem;" alt="scikit-learn logo" title="Scikit learn" />
 
 								<!-- DS libs -->
-								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original.svg" alt="anaconda logo" title="Anaconda" />
 								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter logo" title="Jupyter" />
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy logo" title="Numpy" />
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas logo" title="Pandas" />
@@ -195,9 +196,10 @@
 							</div>
 							<hr>
 							<!-- Softwares -->
-							<h5 class="wow fadeInUp">Bases de Dados</h5>
+							<h5 class="wow fadeInUp">Databases</h5>
 							<div align="left">
 								<!-- Databases -->
+								<svg class="img-badges" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"><defs><style>.cls-1{fill:#aecbfa;}.cls-1,.cls-2,.cls-3{fill-rule:evenodd;}.cls-2{fill:#669df6;}.cls-3{fill:#4285f4;}</style></defs><title>BigQuery</title><g data-name="Product Icons"><g ><path class="cls-1" d="M6.73,10.83v2.63A4.91,4.91,0,0,0,8.44,15.2V10.83Z"/><path class="cls-2" d="M9.89,8.41v7.53A7.62,7.62,0,0,0,11,16,8,8,0,0,0,12,16V8.41Z"/><path class="cls-1" d="M13.64,11.86v3.29a5,5,0,0,0,1.7-1.82V11.86Z"/><path class="cls-3" d="M17.74,16.32l-1.42,1.42a.42.42,0,0,0,0,.6l3.54,3.54a.42.42,0,0,0,.59,0l1.43-1.43a.42.42,0,0,0,0-.59l-3.54-3.54a.42.42,0,0,0-.6,0"/><path class="cls-2" d="M11,2a9,9,0,1,0,9,9,9,9,0,0,0-9-9m0,15.69A6.68,6.68,0,1,1,17.69,11,6.68,6.68,0,0,1,11,17.69"/></g></g></svg>
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql logo" title="MySQL" />
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="oracle logo" title="Oracle" />
 								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgres logo" title="Postgres" />
@@ -215,10 +217,10 @@
 							</div>
 							<hr>
 							<!-- Cloud Services -->
-							<h5 class="wow fadeInUp">Serviços Cloud</h5>
+							<h5 class="wow fadeInUp">Cloud Services</h5>
 							<div align="left">
+								<svg class="img-badges" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#ea4535" d="M80.6 40.3h.4l-.2-.2 14-14v-.3c-11.8-10.4-28.1-14-43.2-9.5C36.5 20.8 24.9 32.8 20.7 48c.2-.1.5-.2.8-.2 5.2-3.4 11.4-5.4 17.9-5.4 2.2 0 4.3.2 6.4.6.1-.1.2-.1.3-.1 9-9.9 24.2-11.1 34.6-2.6h-.1z"/><path fill="#557ebf" d="M108.1 47.8c-2.3-8.5-7.1-16.2-13.8-22.1L80 39.9c6 4.9 9.5 12.3 9.3 20v2.5c16.9 0 16.9 25.2 0 25.2H63.9v20h-.1l.1.2h25.4c14.6.1 27.5-9.3 31.8-23.1 4.3-13.8-1-28.8-13-36.9z"/><path fill="#36a852" d="M39 107.9h26.3V87.7H39c-1.9 0-3.7-.4-5.4-1.1l-15.2 14.6v.2c6 4.3 13.2 6.6 20.7 6.6z"/><path fill="#f9bc15" d="M40.2 41.9c-14.9.1-28.1 9.3-32.9 22.8-4.8 13.6 0 28.5 11.8 37.3l15.6-14.9c-8.6-3.7-10.6-14.5-4-20.8 6.6-6.4 17.8-4.4 21.7 3.8L68 55.2C61.4 46.9 51.1 42 40.2 42.1z"/></svg>
 								<img class="img-badges" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="Aws logo" title="AWS" />
-								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" alt="Azure logo" title="Azure" />
 							</div>
 							<hr>
 							<!-- MLOps -->
@@ -239,7 +241,15 @@
 							<h2 class="fg-dark">Educação</h2>
 							<ul class="timeline mt-4 pr-md-5">
 								<li>
-									<div class="title">2019 - 2021</div>
+									<div class="title">2022 - 2025</div>
+									<div class="details">
+										<h5>Doutorado em Ciência da Computação</h5>
+										<small class="fg-theme">Universidade Federal do Maranhão</small>
+										<p>Doutorado interrompido com pesquisa em Generative AI e Medical AI aplicadaos à geração de laudos médicos em imagens de retinografia.</p>
+									</div>
+								</li>
+								<li>
+									<div class="title">2014 - 2018</div>
 									<div class="details">
 										<h5>Mestrado em Ciência da Computação</h5>
 										<small class="fg-theme">Universidade Federal do Maranhão</small>
@@ -266,6 +276,10 @@
 									</div>
 								</li>
 							</ul>
+						<div class="mt-5">
+							<h2 class="fg-dark">Licenças &amp; Certificações</h2>
+							<ul class="timeline mt-3 pr-md-5" id="certifications-widget"></ul>
+						</div>
 						</div>
 						<div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
 							<h2 class="fg-dark">Experience</h2>
@@ -298,7 +312,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="text-center wow fadeInUp">
-								<a href="https://github.com/vituenrique?tab=repositories" target="_blank" class="btn btn-theme">Veja mais</a>
+								<a href="https://github.com/victor-clemos?tab=repositories" target="_blank" class="btn btn-theme">Veja mais</a>
 							</div>
 						</div>
 					</div>
@@ -339,8 +353,8 @@
 								<hr class="divider">
 								<ul class="list-unstyled">
 									<li><a href="https://linkedin.com/in/victor-lemos-ml" target="_blank"><span class="icon ti-linkedin"></span> Linkedin</a></li>
-									<li><a href="https://github.com/vituenrique" target="_blank"><span class="icon ti-github"></span> Github</a></li>
-									<li><a href="https://www.instagram.com/vituenrique/" target="_blank"><span class="icon ti-instagram"></span> Instagram</a></li>
+									<li><a href="https://github.com/victor-clemos" target="_blank"><span class="icon ti-github"></span> Github</a></li>
+									<li><a href="https://www.instagram.com/victor_clemos" target="_blank"><span class="icon ti-instagram"></span> Instagram</a></li>
 									<li><a href="https://twitter.com/vituenrique" target="_blank"><span class="icon ti-twitter-alt"></span> Twitter</a></li>
 								</ul>
 							</div>
@@ -358,7 +372,7 @@
 					</div>
 					<div class="row justify-content-center mt-1">
 						<div class="col-12">
-							<p class="text-center mb-0 mt-4">Copyright &copy;2022. All right reserved</p>
+							<p class="text-center mb-0 mt-4">Copyright &copy;<span id="current-year"></span>. All right reserved</p>
 						</div>
 					</div>
 				</div>
@@ -389,10 +403,86 @@
 
 		<script src="../assets/js/minibar-virtual.js"></script>
 
-		<script type="module" src="../assets/js/experiences-widget.js"></script>
+		<script src="../assets/js/experiences-widget.js"></script>
 
-		<script type="module" src="../assets/js/papers-widget.js"></script>
+		<script src="../assets/js/papers-widget.js"></script>
+
+		<script src="../assets/js/certifications-widget.js"></script>
 
 		<script src="../assets/js/github-repos-widget.js"></script>
+		
+		<script>
+			(function () {
+				const birthDate = new Date('1996-06-29');
+				const today = new Date();
+				let age = today.getFullYear() - birthDate.getFullYear();
+				const monthDiff = today.getMonth() - birthDate.getMonth();
+
+				if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+					age--;
+				}
+
+				document.getElementById('age-value').textContent = age;
+				document.getElementById('current-year').textContent = today.getFullYear();
+
+				const themeToggleButton = document.getElementById('theme-toggle');
+				const settingsTrigger = document.getElementById('sideel');
+				const settingsClose = document.getElementById('settings-close');
+				const configPanel = document.querySelector('.config');
+				const accentSwatches = document.querySelectorAll('.color-swatch');
+
+				const savedTheme = localStorage.getItem('theme');
+				const currentThemeClass = Array.from(document.body.classList).find((cls) => cls.startsWith('theme-')) || 'theme-purple';
+				const matchingSwatch = document.querySelector('.color-swatch[data-theme-class="' + currentThemeClass + '"]');
+
+				if (matchingSwatch) {
+					accentSwatches.forEach((swatch) => swatch.classList.remove('active'));
+					matchingSwatch.classList.add('active');
+				}
+
+				if (savedTheme === 'dark') {
+					document.body.setAttribute('data-theme', 'dark');
+					themeToggleButton.textContent = '☀️';
+				}
+
+				if (themeToggleButton) {
+					themeToggleButton.addEventListener('click', function () {
+						const isDark = document.body.getAttribute('data-theme') === 'dark';
+						document.body.setAttribute('data-theme', isDark ? 'light' : 'dark');
+						localStorage.setItem('theme', isDark ? 'light' : 'dark');
+						this.textContent = isDark ? '🌙' : '☀️';
+					});
+				}
+
+				if (settingsTrigger && configPanel) {
+					settingsTrigger.addEventListener('click', function (event) {
+						event.stopPropagation();
+						configPanel.classList.toggle('active');
+					});
+				}
+
+				if (settingsClose && configPanel) {
+					settingsClose.addEventListener('click', function (event) {
+						event.stopPropagation();
+						configPanel.classList.remove('active');
+					});
+				}
+
+				document.addEventListener('click', function (event) {
+					if (configPanel && configPanel.classList.contains('active') && !event.target.closest('.config')) {
+						configPanel.classList.remove('active');
+					}
+				});
+
+				accentSwatches.forEach((swatch) => {
+					swatch.addEventListener('click', function () {
+						accentSwatches.forEach((item) => item.classList.remove('active'));
+						this.classList.add('active');
+						document.body.classList.remove('theme-purple', 'theme-blue', 'theme-green', 'theme-orange', 'theme-red');
+						document.body.classList.add(this.getAttribute('data-theme-class'));
+					});
+				});
+			})();
+		</script>
 	</body>
 </html>

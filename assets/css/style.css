@@ -1,3 +1,113 @@
+body[data-theme='dark'] {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+body[data-theme='dark'] .vg-page,
+body[data-theme='dark'] .vg-footer,
+body[data-theme='dark'] .minibar,
+body[data-theme='dark'] .topbar-nav,
+body[data-theme='dark'] .lang-menu ul,
+body[data-theme='dark'] .img-caption,
+body[data-theme='dark'] .card,
+body[data-theme='dark'] .table,
+body[data-theme='dark'] .table td,
+body[data-theme='dark'] .table th {
+    background-color: #111827;
+    color: #e2e8f0;
+}
+
+body[data-theme='dark'] .fg-dark,
+body[data-theme='dark'] .fg-theme,
+body[data-theme='dark'] h1,
+body[data-theme='dark'] h2,
+body[data-theme='dark'] h3,
+body[data-theme='dark'] h4,
+body[data-theme='dark'] h5,
+body[data-theme='dark'] p,
+body[data-theme='dark'] small,
+body[data-theme='dark'] li {
+    color: #e2e8f0;
+}
+
+body[data-theme='dark'] a {
+    color: #c084fc;
+}
+
+body[data-theme='dark'] a:hover {
+    color: #f0abfc;
+}
+
+body[data-theme='dark'] .btn-theme,
+body[data-theme='dark'] .btn-outline-secondary {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+    color: #fff;
+}
+
+body[data-theme='dark'] .btn-theme:hover,
+body[data-theme='dark'] .btn-outline-secondary:hover {
+    background-color: #6d28d9;
+    border-color: #6d28d9;
+    color: #fff;
+}
+
+body[data-theme='dark'] .timeline .title {
+    color: #c084fc;
+}
+
+body[data-theme='dark'] .lang-menu ul {
+    border-color: #334155;
+}
+
+body[data-theme='dark'] .mouse {
+    border-color: #c084fc;
+}
+
+body[data-theme='dark'] .mouse::before {
+    background: #c084fc;
+}
+
+body[data-theme='dark'] .overflow:hover h5 {
+    background-color: #111827;
+    color: #fff;
+}
+
+body[data-theme='dark'] ::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+body[data-theme='dark'] ::-webkit-scrollbar-thumb {
+    background: #7c3aed;
+}
+
+body[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+    background: #a78bfa;
+}
+
+#theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 8px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: #7c3aed;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+    z-index: 101;
+}
+
+#theme-toggle:hover,
+#theme-toggle:focus {
+    background-color: #6d28d9;
+    color: #fff;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
